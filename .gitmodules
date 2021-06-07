@@ -1,0 +1,12 @@
+[submodule "dhcp_snooping/DHCP-Server"]
+	path = dhcp_snooping/DHCP-Server
+	url = https://github.com/juanga333/DHCP-Server
+[submodule "dhcp_snooping/DNS-Rogue-Server"]
+	path = dhcp_snooping/DNS-Rogue-Server
+	url = https://github.com/juanga333/DNS-Rogue-Server
+[submodule "dhcp_snooping/Simply-HTTP-sniffer"]
+	path = dhcp_snooping/Simply-HTTP-sniffer
+	url = https://github.com/juanga333/Simply-HTTP-sniffer
+[submodule "Netattack"]
+	path = Netattack
+	url = https://github.com/juanga333/Netattack
