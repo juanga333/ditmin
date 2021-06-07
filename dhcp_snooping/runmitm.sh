@@ -8,7 +8,7 @@ fi
 
 echo "1" > /proc/sys/net/ipv4/ip_forward
 
-{ DHCP-Server/dhcpserver -m 255.255.255.0 & DNS-Rogue-Server/sniffer & Simply-HTTP-sniffer/dnsserver -l domains.txt 2>/dev/null; }
+{ DHCP-Server/dhcpserver.py -m 255.255.255.0 & Simply-HTTP-sniffer/sniffer.py & DNS-Rogue-Server/dnsserver.py ; }
 
 pkill dnsserver
 pkill dhcpserver
