@@ -30,10 +30,6 @@ fi
 printf "${BLUE}Enter your network interface\n"
 listinterfaces=$(ifconfig | grep flags | awk -F ":" '{print $1}' | grep -v "lo")
 
-for each in "${listinterfaces[@]}"
-do
-  echo -e "\t${BROWN}1) $each"
-done
 
 printf "${DGREY}#> "
 printf "${NC}"
